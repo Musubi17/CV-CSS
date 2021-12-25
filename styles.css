@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #23082640;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    /*font: normal 16px 'Roboto', sans-serif;*/
+}
+
+h2{
+    font-size: 18px;
+
+}
+
+.myPhoto{
+    width: 330px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px indigo;
+}
+
+
+.construct{
+    max-width: 800px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.mainInfo {
+    font-size: medium;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+
+@media (max-width: 700px) {
+    .info{
+        display: block;
+        text-align: center;
+    }
+
+}
+
+
+.info-text{
+    margin-left: 40px;
+    font-size: 17px;
+
+}
+
+a {
+
+    color: purple;
+    text-decoration: none;
+}
+a:hover{
+    color: blueviolet;
+}
+
+a:active{
+    color: goldenrod;
+}
+a:visited{
+    color: darkred;
+}
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.bg-purple{
+    background: #79077a73;
+    box-shadow: 1px 1px 10px 5px #bc07f76b;
+}
+
+.bg-brown{
+    background: #46544778 ;
+    box-shadow: 1px 1px 10px 5px #4f57606b;
+}
+
+.bg-achievement{
+    background: #2d7293a3;
+    box-shadow: 1px 1px 10px 5px #165da770;
+    margin-bottom: 30px ;
+
+}
+.bg-legend{
+
+    background: #c9202085;
+    box-shadow: 1px 1px 10px 5px #c9202066;
+    text-align: center;
+
+}
+
+.hobbyList{
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.hobbyList li {
+    margin-bottom: 8px;
+}
+
+.table{
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+#achiev{
+    font-size: 18px;
+}
+
+.getInTouch{
+    text-align: center;
+    border-color: orange;
+}
+
+.space{
+    margin-bottom: 100px;
+}
+
+.form-group{
+    margin-bottom: 8px;
+}
+
+.form-group label{
+    display: flex;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    font-style: revert;
+    color: black;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    /*border: brown;*/
+    border: none;
+    padding: 15px 0 10px;
+    background-color: transparent;
+    border-bottom: 1px solid;
+    outline: none;
+    display: flex;
+}
+
+#submitButton{
+    text-align: center;
+    border-radius: 10%;
+    border-color: #f1cc18;
+    background-color: #d78116b5;
+    padding: 5px;
+    box-shadow: 1px 1px 15px 6px #f7a207e0;
+}
+
+#first{
+    border-bottom-left-radius: 15%;
+}
+#second{
+    border-bottom-right-radius: 15%;
+}
+.form-group textarea{
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+.nameEmail{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.leftForm{
+    border-bottom-left-radius: 10%;
+}
+.rightForm{
+    border-bottom-right-radius: 10%;
+}
+.nameEmail  > .form-group{
+    width: 50%;
+}
+
+
+
+/*
+.socialNetwork{
+    background: khaki;
+    padding: 15px;
+    margin: 5px;
+    border: 5px solid burlywood;
+}
+*/
+
+/*.box > div{
+    float: left;
+    background: blueviolet;
+    height: 200px;
+    width: 25%;
+    border: 4px solid blue;
+    box-sizing: border-box; //
+
+
+}*/
+
+h1{
+    text-align: center;
+    color: darkred ;
+}
